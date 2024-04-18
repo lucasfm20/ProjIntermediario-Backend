@@ -2,12 +2,12 @@ package com.example.MunicipioApi;
 
 public class Municipio {
     String nome;
-    String UF;
+    String uf;
     String regiao;
 
-    public Municipio(String nome, String UF, String regiao) {
+    public Municipio(String nome, String uf, String regiao) {
         this.nome = nome;
-        this.UF = UF;
+        this.uf = uf;
         this.regiao = regiao;
     }
 
@@ -20,11 +20,11 @@ public class Municipio {
     }
 
     public String getUF() {
-        return UF;
+        return uf;
     }
 
-    public void setUF(String UF) {
-        this.UF = UF;
+    public void setUF(String uf) {
+        this.uf = uf;
     }
 
     public String getRegiao() {
