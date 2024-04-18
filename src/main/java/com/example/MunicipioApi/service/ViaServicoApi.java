@@ -6,9 +6,9 @@ import org.springframework.web.client.RestClient;
 
 @Service
 public class ViaServicoApi implements ServicoApi{
-    private RestClient client =RestClient.create("https://servicodados.ibge.gov.br/api/v1/localidades/estados");
+    private RestClient client =RestClient.create("https://servicodados.ibge.gov.br/api/v1/localidades/municipios");
     @Override
-    public Municipio converteMunicipio(String uf) {
-        return client.get().uri("/{UF}/municipios)",uf).retrieve().body(Municipio.class);
+    public Municipio converteMunicipio(int id) {
+        return client.get().uri("/{municipio})",id).retrieve().body(Municipio.class);
     }
 }

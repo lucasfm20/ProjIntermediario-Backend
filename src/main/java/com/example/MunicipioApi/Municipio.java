@@ -4,11 +4,21 @@ public class Municipio {
     String nome;
     String uf;
     String regiao;
+    int id;
 
-    public Municipio(String nome, String uf, String regiao) {
+    public Municipio(String nome, String uf, String regiao, int id) {
         this.nome = nome;
         this.uf = uf;
         this.regiao = regiao;
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     String getNome(String nome){
