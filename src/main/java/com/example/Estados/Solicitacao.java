@@ -1,16 +1,40 @@
 package com.example.Estados;
 
+import java.util.List;
+
 public class Solicitacao {
 
     private int populacao;
-    private int idh;
+    private float idh;
 
     private String uf;
 
-    public Solicitacao( String uf,int populacao, int idh) {
+    private String capital;
+
+    private List<Municipio> municipio;
+
+    public Solicitacao(int populacao, float idh, String uf, String capital,  List<Municipio> municipio) {
         this.populacao = populacao;
         this.idh = idh;
         this.uf = uf;
+        this.capital = capital;
+        this.municipio = municipio;
+    }
+
+    public  List<Municipio> getMunicipio() {
+        return municipio;
+    }
+
+    public void setMunicipio( List<Municipio> municipio) {
+        this.municipio = municipio;
+    }
+
+    public String getCapital() {
+        return capital;
+    }
+
+    public void setCapital(String capital) {
+        this.capital = capital;
     }
 
     public int getPopulacao() {
@@ -21,11 +45,11 @@ public class Solicitacao {
         this.populacao = populacao;
     }
 
-    public int getIdh() {
+    public float getIdh() {
         return idh;
     }
 
-    public void setIdh(int idh) {
+    public void setIdh(float idh) {
         this.idh = idh;
     }
 

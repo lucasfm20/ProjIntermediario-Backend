@@ -6,8 +6,8 @@ public class Estado {
 
     private String sigla;
     private String nome;
-
     private Regiao regiao;
+
 
 
 
@@ -17,6 +17,8 @@ public class Estado {
         this.regiao = regiao;
 
     }
+
+
 
     public Regiao getRegiao() {
         return regiao;
