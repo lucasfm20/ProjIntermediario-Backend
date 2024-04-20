@@ -1,10 +1,10 @@
-package com.example.MunicipioApi;
+package com.example.Estados;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MunicipioApiApplicationTests {
+class EstadosApplicationTests {
 
 	@Test
 	void contextLoads() {

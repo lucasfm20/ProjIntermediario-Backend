@@ -1,13 +1,13 @@
-package com.example.MunicipioApi;
+package com.example.Estados;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MunicipioApiApplication {
+public class EstadosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MunicipioApiApplication.class, args);
+		SpringApplication.run(EstadosApplication.class, args);
 	}
 
 }

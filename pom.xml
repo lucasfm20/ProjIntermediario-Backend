@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.4</version>
+		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>MunicipioApi</artifactId>
+	<artifactId>Estados</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MunicipioApi</name>
-	<description>Api sobre os municípios do Brasil.</description>
+	<name>Estados</name>
+	<description>API de estados</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
